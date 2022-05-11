@@ -2,7 +2,7 @@ const inputTexto = document.querySelector('.input-texto');
 const mensaje = document.querySelector('.texto-result');
 
 function botonEncriptar(){
-    const textoEncriptado = encriptar(inputText.value);
+    const textoEncriptado = encriptar(inputTexto.value);
     mensaje.value = textoEncriptado;
 }
 
@@ -17,3 +17,4 @@ function encriptar(StringParaEncriptar){
     }
     return StringParaEncriptar;
 }
+
