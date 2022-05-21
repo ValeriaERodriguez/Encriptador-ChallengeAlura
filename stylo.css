@@ -1,9 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-weight: 400;
+  /*  font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
+    line-height: 150%;*/
 }
 
 main{
@@ -43,14 +43,12 @@ body{
     border-radius: 15px;
     text-align: center;
     font-variant: small-caps;
+    border: none;
+    outline: none;
 
 }
 
-.input-texto:hover{
-    background-color: #e8e6e6;
-    box-shadow: 1px 1px 1px black;
-    font-weight: 400;
-}
+
 h6{
 
     color: black;
@@ -62,8 +60,9 @@ h6{
     height: 944px;
     border-radius: 32px;
     offset: 0px, 24px, rgba(0, 0, 0, 0.08);
-    border-style: 
+    
 }
+
 .figura {
     position: absolute;
 
