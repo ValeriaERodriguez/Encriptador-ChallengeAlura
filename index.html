@@ -13,17 +13,17 @@
     </header>
     <section class="contenedor1">
     <main>
-    <section><textarea type = "text" class="input-texto" placeholder="Ingrese el taxto aqui"></textarea></section>
+    <section><textarea type = "text" class="input-texto" cols = "40" rows="6"placeholder="Ingrese el taxto aqui"></textarea></section>
     <h6>Solo letras minusculas, y sin acentos</h6>
     </section>
     <div>
         <button type="button" onclick = "botonEncriptar()" class="btn-Enc" >Encriptar</button>
         <button type="button" onclick= "botonDesencriptar()"class="btn-Des">Desencriptar</button>
-  <!--  <button type="button" onclick = "copiar()" class="copiar" id="copiar">Copiar</button>-->
+        <button type="button" onclick = "copiar()" class="copiar" id="copiar">Copiar</button>
     </div>
     
-    <section>
-        <textarea type = "text" class="texto-result"></textarea>
+    <section class="resultados">
+        <textarea type = "text" class="texto-result" cols="18" rows="8" ></textarea>
         <img src="Imagenes/Muñeco.png" class="figura">
     </section>
     </main>
