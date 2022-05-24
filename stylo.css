@@ -250,6 +250,29 @@ top: 480px;*/
     line-height: 19px;
     text-align: center;
 }
+
+.contenedor-texto{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    top: 390px;
+    left: 900px;
+    gap: 16px;
+}
+
+.Nmensaje{
+    
+    text-align: center;
+}
+.ingrese{
+    
+    color:#0A3871;
+    
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
+    
+}
 /*
 width: 30%;
 	height: 8%;

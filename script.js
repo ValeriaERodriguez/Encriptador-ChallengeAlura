@@ -1,6 +1,7 @@
-const inputTexto = document.querySelector('.input-texto');
+const inputTexto = document.querySelector('.input-texto').value.toLowerCase();
 const mensaje = document.querySelector('.texto-result');
 const botonCopiar = document.getElementById('.copiar');
+
 
 function botonEncriptar(){
     const textoEncriptado = encriptar(inputTexto.value);
@@ -55,12 +56,31 @@ function desencriptar(StringParaEncriptar){
 //         copiarAlPortapapeles(mensajeEncriptado);
 //   //  })
 
-function copiar(){
-    var content = document.getElementById('copiar').innerHTML;
+// function copiar(){
+//     var content = document.getElementById('copiar').innerHTML;
+//     navigator.clipboard.writeText(content)
+//     .then(() => {
+//         console.log("Texto copiado al portapapeles")
+//         alert("Copiado")
+//     })
+
+// }
+
+function copiar() {
+    var contenido = document.querySelector("#texto-result");
+    contenido.select();
+    document.execCommand("copy");
+    alert("!Se copió correctamente!");
+  }
+
+function copy() {
+
+    var btnMensaje = document.getElementById("texto-result").innerHTML;
+    document.getElementById("input-texto").value = btnMensaje;
+    mensaje.value = "";
     navigator.clipboard.writeText(content)
-    .then(() => {
-        console.log("Texto copiado al portapapeles")
-        alert("Copiado")
-    })
+    
+    
+    
 
 }
