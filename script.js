@@ -1,4 +1,4 @@
-const inputTexto = document.querySelector('.input-texto').value.toLowerCase();
+const inputTexto = document.querySelector('.input-texto');
 const mensaje = document.querySelector('.texto-result');
 const botonCopiar = document.getElementById('.copiar');
 
