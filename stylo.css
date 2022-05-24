@@ -257,7 +257,8 @@ top: 480px;*/
     height: 122px;
     top: 390px;
     left: 900px;
-    gap: 16px;
+    gap: 40;
+    
 }
 
 .Nmensaje{
@@ -265,9 +266,8 @@ top: 480px;*/
     text-align: center;
 }
 .ingrese{
-    
+    padding-top: 5px;
     color:#0A3871;
-    
     font-size: 15px;
     font-style: bold;
     text-align: center;
