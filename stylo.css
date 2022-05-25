@@ -90,6 +90,7 @@ h6::before {
     outline: none;
     color: #9da3aa;
     padding: 25px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -173,6 +174,17 @@ h6::before {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+}
+.copiar:hover{
+    position: absolute;
+    width: 320px;
+	height: 8%;
+    top: 500px;
+    border-radius: 22px;
+    border-color: #FFFFFF;
+    font-style: normal;
+    line-height: 24px;
     text-align: center;
 }
 
