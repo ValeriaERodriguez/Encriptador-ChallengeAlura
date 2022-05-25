@@ -3,27 +3,20 @@ const mensaje = document.querySelector('.texto-result');
 const botonCopiar = document.getElementById('.copiar');
 var figura = document.getElementById('.figura');
 var contenedor = document.getElementById('.cont');
+var ningunMensajeEncontrado = document.getElementById('.Nmensaje');
+ningunMensajeEncontrado.style.visibility = "visible";
+var textoDeseaDesencriptar = document.getElementById('.ingrese');
+textoDeseaDesencriptar.style.visibility = "visible";
+
 
 
 function botonEncriptar(){
    
-   
     const textoEncriptado = encriptar(inputTexto.value);
-    mensaje.value = textoEncriptado;
-
-    if (inputTexto.value == "") {
-        figura.style.visibility = "visible";
-        mensaje.style.visibility = "visible";
-        botonCopiar.style.visibility = "hidden";
-    } else {
-        figura.style.visibility = "hidden";
-        mensaje.style.visibility = "hidden";
-        mensaje.style.visibility = "hidden";
-        
-        inputTexto.value = "";
-        inputTexto.focus();
-    }
-
+        mensaje.value = textoEncriptado;
+        textoEncriptado.value = "";
+        document.getElementById('.cont').style.display= 'none';
+        figura.classList.remove;
     
 }
 
@@ -38,6 +31,8 @@ function encriptar(StringParaEncriptar){
     }
     
     return StringParaEncriptar;
+
+    
 }
 
 function botonDesencriptar(){
@@ -78,14 +73,6 @@ function desencriptar(StringParaEncriptar){
 
  
 
-
-
-function ocultarAdelante(){
-    figura.classList.add("ocultar");
-    h3.classList.add("ocultar");
-    h4.classList.add("ocultar");
-}
-
 /*
 
 function ocultarSalida(){ 
@@ -94,26 +81,6 @@ function ocultarSalida(){
     inputTexto.classList.add("ocultar");
     mensaje.removeAttribute("hidden");
   }
-  function copiarAlPortapapeles(id_elemento) {
-
-    // Crea un campo de texto "oculto"
-    var aux = document.createElement("input");
-  
-    // Asigna el contenido del elemento especificado al valor del campo
-    aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
-  
-    // Añade el campo a la página
-    document.body.appendChild(aux);
-  
-    // Selecciona el contenido del campo
-    aux.select();
-  
-    // Copia el texto seleccionado
-    document.execCommand("copy");
-  
-    // Elimina el campo de la página
-    document.body.removeChild(aux);
-  
-  }*/
+  */
 
   
