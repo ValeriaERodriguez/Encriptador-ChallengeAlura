@@ -71,6 +71,13 @@ function desencriptar(StringParaEncriptar){
     
  }
 
+ if(inputTexto.value.length > 0){
+    figura.classList.add("invisible");
+    mensaje.classList.remove("invisible");
+     
+    mensaje.textContent = input.value;
+        input.value = "";
+    };
  
 
 /*
