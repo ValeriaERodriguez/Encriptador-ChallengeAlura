@@ -15,7 +15,7 @@ function botonEncriptar(){
     const textoEncriptado = encriptar(inputTexto.value);
         mensaje.value = textoEncriptado;
         textoEncriptado.value = "";
-        document.getElementById('.cont').style.display= 'none';
+        document.getElementById('.cont').style.visibility = "hidden";
         figura.classList.remove;
     
 }
