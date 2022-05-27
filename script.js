@@ -80,14 +80,6 @@ function desencriptar(StringParaEncriptar){
     };
  
 
-/*
 
-function ocultarSalida(){ 
-    figura.classList.add("ocultar");
-    contenedor.classList.add("ocultar");
-    inputTexto.classList.add("ocultar");
-    mensaje.removeAttribute("hidden");
-  }
-  */
 
   
