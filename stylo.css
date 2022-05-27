@@ -6,10 +6,9 @@
 
 main{
     display: flex;
-   
     position: relative;
-    
     background: #F3F5FC;
+    font-family: 'Titillium Web', sans-serif;
    
 }
 
@@ -25,13 +24,6 @@ section{
     float: left
    
 }
-
-body{
-    
-    background: #E5E5E5;
-    font-family: 'Titillium Web', sans-serif;
-}
-
 
 
 .input-texto{

@@ -4,9 +4,7 @@ const botonCopiar = document.getElementById('.copiar');
 var figura = document.getElementById('.figura');
 var contenedor = document.getElementById('.cont');
 var ningunMensajeEncontrado = document.getElementById('.Nmensaje');
-ningunMensajeEncontrado.style.visibility = "visible";
 var textoDeseaDesencriptar = document.getElementById('.ingrese');
-textoDeseaDesencriptar.style.visibility = "visible";
 
 
 
